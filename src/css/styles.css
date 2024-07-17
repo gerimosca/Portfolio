@@ -188,8 +188,44 @@ body.dark{
     transition: var(--transition);
 }
 
+.skills__bar--10::after{
+    --skills-bar-length:10%
+}
+
+.skills__bar--20::after{
+    --skills-bar-length:20%
+}
+
+.skills__bar--30::after{
+    --skills-bar-length:30%
+}
+
+.skills__bar--40::after{
+    --skills-bar-length:40%
+}
+
+.skills__bar--50::after{
+    --skills-bar-length:50%
+}
+
+.skills__bar--60::after{
+    --skills-bar-length:60%
+}
+
 .skills__bar--70::after{
-    transform: translateX(var(--skills-bar-length));
+    --skills-bar-length:70%
+}
+
+.skills__bar--80::after{
+    --skills-bar-length:80%
+}
+
+.skills__bar--90::after{
+    --skills-bar-length:90%
+}
+
+.skills__bar--100::after{
+    --skills-bar-length:100%
 }
 
 .icon{
@@ -200,5 +236,4 @@ body.dark{
     to{
         transform: translateX(var(--skills-bar-length))
     }
-    
 }
