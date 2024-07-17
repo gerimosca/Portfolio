@@ -3,6 +3,7 @@
     --text-color: hsl(0,0%,31%);
     --bg-color: hsl(0,0%,90%);
     --bg-card-color: hsl(0,0%,98%);
+    --transition: color 0.15s, background-color 0.25s ease-in-out; 
 }
 
 *{
@@ -13,6 +14,7 @@ body{
     margin: 0;
     background-color: var(--bg-color);
     color: var(--text-color);
+    transition: var(--transition);
 }
 
 body.dark{
@@ -28,6 +30,7 @@ body.dark{
     height: 75px;
     padding: 0 1.5em;
     background-color: var(--bg-card-color);
+    transition: var(--transition)
 }
 
 .switches{
@@ -73,7 +76,7 @@ body.dark{
 }
 
 .colors__item--green{
-    --primary-color: hsl(150,84%,56%);
+    --primary-color: hsl(150, 77%, 24%);
 }
 
 .colors__item--purple{
@@ -81,5 +84,12 @@ body.dark{
 }
 
 .colors__item--orange{
-    --primary-color: hsl(46,84%,56%);
+    --primary-color: hsl(27, 87%, 42%);
+}
+
+h1{
+    color: var(--primary-color);
+    justify-content: center;
+    display: flex;
+    transition: var(--transition)
 }
