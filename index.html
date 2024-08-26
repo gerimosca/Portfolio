@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!--CAMBIAR POR docs/css/styles.min.css AL FINALIZAR EL PROYECTO-->
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <title>Portfolio Gerardo Mosca</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" src="./docs/assets/images/moon.svg" alt="icon moon" class="toggle-theme__icon" />
+          <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+        <div data-color="hsl(214,84%,56%)" class="colors__item colors__item--blue"></div>
+        <div data-color="hsl(150, 77%, 24%)" class="colors__item colors__item--green"></div>
+        <div data-color="hsl(276,84%,56%)" class="colors__item colors__item--purple"></div>
+        <div data-color="hsl(27, 87%, 42%)" class="colors__item colors__item--orange"></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <!-- Profile Card -->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="./docs/assets/images/profile.jpg" alt="profile image" />
+          </div>
+          <div class="card__header">
+            <h2 class="card__title no-margin">Gerardo Mosca</h2>
+            <p class="card__subtitle">Frontend Developer</p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:gerimosca90@gmail.com">gerimosca90@gmail.com</a>
+            </div>
+            <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:675953010">+34 675 953 010</a>
+            </div>
+            <div class="card__link">
+              <i class="fas fa-solid fa-briefcase icon"></i>
+              <a href="./docs/assets/download/CV-Gerardo Mosca.pdf" download="">Curriculum Vitae</a>
+            </div>
+            <p class="card__text">
+              De Diseñador Industrial a Frontend Developer. Como diseñador poseo una fuerte base en la creación de
+              experiencias visuales atractivas y funcionales. Estoy emocionado de poder aplicar mi pasión por el diseño,
+              a la programación Frontend, combinando creatividad con tecnología. En este último año, he adquirido
+              competencias en HTML, CSS, Javascript y estoy aprendiendo sobre frameworks con React. La experiencia en
+              diseño, me permite una comprensión profunda de la estética y usabilidad para poder crear interfaces
+              intuitivas y accesibles. Estoy entusiasmado de poder contribuir a un equipo de desarrollo, aprender de
+              profesionales experimentados y seguir creciendo en este campo.
+            </p>
+          </div>
+        </article>
+        <article class="card card--experience">
+          <h2 class="card__title">Experiences</h2>
+          <div class="experience">
+            <div class="experience__info">
+              <img src="./docs/assets/images/proyecto1.jpg" alt="logo experiencia" class="experience__image" />
+              <p class="experience__time">Oct 2019 - Ago 2023</p>
+              <h3 class="experience__job">WH and Procurement Manager Iberia</h3>
+              <p class="experience__description">
+                Responsable del abastecimiento de insumos y servicios. Dimensionamiento de equipos y control de stocks
+                en España y Portugal.
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <div class="experience__info">
+              <img src="./docs/assets/images/proyecto1.jpg" alt="logo experiencia" class="experience__image" />
+              <p class="experience__time">Nov 2018 - Sep 2019</p>
+              <h3 class="experience__job">Global Purchasing Analyst</h3>
+              <p class="experience__description">
+                Responsable de la logística y soporte al departamento de compras global (Italia, España y Portugal) para
+                garantizar los niveles óptimos de stock.
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <div class="experience__info">
+              <img src="./docs/assets/images/proyecto1.jpg" alt="logo experiencia" class="experience__image" />
+              <p class="experience__time">May 2018 - Oct 2018</p>
+              <h3 class="experience__job">CX Spain and Italy</h3>
+              <p class="experience__description">
+                Soporte a los clientes en el proceso de compras (end to end), garantizando que la experiencia sea eficaz
+                y de calidad.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="card card--experience studies">
+          <h2 class="card__title">Academic studies</h2>
+          <div class="experience studies">
+            <div class="experience__info studies">
+              <img src="./docs/assets/images/coderhouse.jpg" alt="logo coderhouse" class="experience__image" />
+              <p class="experience__time studies">Oct 2023 - Current</p>
+              <h3 class="experience__job studies">CoderHouse</h3>
+              <p class="experience__description studies">
+                Adquisición de habilidades como HTML, CSS, Javascript y actualmente estudiando React.
+              </p>
+            </div>
+          </div>
+          <div class="experience studies">
+            <div class="experience__info studies">
+              <img src="./docs/assets/images/dorianDesings.jpg" alt="logo dorian" class="experience__image" />
+              <p class="experience__time studies">Oct 2023 - Current</p>
+              <h3 class="experience__job studies">Dorian Desings</h3>
+              <p class="experience__description studies">
+                Estudio y conocimientos avanzados sobre HTML, CSS y Javascript.
+              </p>
+            </div>
+          </div>
+          <div class="experience studies">
+            <div class="experience__info studies">
+              <img src="./docs/assets/images/udemy.jpg" alt="logo udemy" class="experience__image" />
+              <p class="experience__time studies">Oct 2023 - Current</p>
+              <h3 class="experience__job studies">Udemy</h3>
+              <p class="experience__description studies">
+                Enfoque en cursos de desarrollo Frontend: combinación de educación formal y autodidacta.
+              </p>
+            </div>
+          </div>
+          <div class="experience studies">
+            <div class="experience__info studies">
+              <img src="./docs/assets/images/UNC.png" alt="logo unc" class="experience__image" />
+              <p class="experience__time studies">Ene 2009 - Dic 2016</p>
+              <h3 class="experience__job studies">Diseñador Industrial</h3>
+              <p class="experience__description studies">
+                Graduado como Diseñador Industrial en la Universidad Nacional de Córdoba, Argentina.
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card__title">Frontend</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">1</span>
+            </div>
+            <div class="skills">
+              <div class="skills__item">
+                <p class="skills__tech">HTML</p>
+                <div class="skills__bar skills__bar--90"></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech">CSS</p>
+                <div class="skills__bar skills__bar--80"></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech">Javascript</p>
+                <div class="skills__bar skills__bar--70"></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech">React</p>
+                <div class="skills__bar skills__bar--30"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Design</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">6</span>
+            </div>
+            <div class="skills">
+              <div class="skills__item">
+                <p class="skills__tech">Photoshop</p>
+                <div class="skills__bar skills__bar--90"></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech">Ilustrator</p>
+                <div class="skills__bar skills__bar--70"></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech">Corel Draw</p>
+                <div class="skills__bar skills__bar--60"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">3D Design</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">6</span>
+            </div>
+            <div class="skills">
+              <div class="skills__item">
+                <p class="skills__tech">Solidworks</p>
+                <div class="skills__bar skills__bar--90"></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech">3ds Max</p>
+                <div class="skills__bar skills__bar--80"></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech">Solid Edge</p>
+                <div class="skills__bar skills__bar--70"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="card card--projects">
+          <div class="card__image-container">
+            <img src="./docs/assets/images/webBurger.png" alt="proyecto burger" class="card__image" />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#Responsive</span>
+            </div>
+            <h2 class="card__title">Grill & Go</h2>
+            <p class="card__text">
+              ¡Bienvenidos a Grill & Go! Este sitio web ha sido el primero que he construido, una vez finalizados los
+              cursos de HTML y CSS.
+            </p>
+            <p class="card__text">
+              Decidí crear este sitio web como un proyecto personal para aprender más sobre diseño web y programación,
+              para compartir el amor que tengo por las parrilladas.
+            </p>
+            <p class="card__text">
+              Este sitio es el resultado de meses de aprendizaje, experimentación y dedicación. Cada página, cada línea
+              de código, ha sido una oportunidad para crecer y mejorar mis habilidades. He trabajado para asegurarme que
+              la experiencia de usuario sea lo más intuitiva y agradable posible.
+            </p>
+            <div class="buttons">
+              <a href="https://gerimosca.github.io/grillandgo/" target="_blank" class="button button--primary">Demo</a>
+              <a href="https://github.com/gerimosca/grillandgo" target="_blank" class="button button--ghost">Código</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--projects">
+          <div class="card__image-container">
+            <img
+              src="./docs/assets/images/advancedPWgenerator.png"
+              alt="optional password generate"
+              class="card__image"
+            />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#Javascript</span>
+              <span class="project__tag">#Responsive</span>
+            </div>
+            <h2 class="card__title">Optional password generate</h2>
+            <p class="card__text">
+              He desarrollado un generador de contraseñas aleatorias para ayudar a mantener la seguridad de tus cuentas
+              en línea. Este generador de contraseñas utiliza un algoritmo para combinar letras, números y símbolos,
+              creando contraseñas únicas cada vez que se usa.
+            </p>
+            <p class="card__text">
+              Puedes personalizar la longitud de la contraseña y elegir los tipos de caracteres que deseas incluir,
+              asegurando que se adapten a tus necesidades específicas.
+            </p>
+            <p class="card__text">
+              La interfaz de usuario es amigable e intuitiva, diseñada para que cualquiera pueda generar una contraseña
+              segura con facilidad. Solo selecciona las opciones que prefieras y presiona el botón para generar tu nueva
+              contraseña
+            </p>
+            <div class="buttons">
+              <a href="https://gerimosca.github.io/advancedPassword/" target="_blank" class="button button--primary"
+                >Demo</a
+              >
+              <a href="https://github.com/gerimosca/advancedPassword" target="_blank" class="button button--ghost"
+                >Código</a
+              >
+            </div>
+          </div>
+        </article>
+        <article class="card card--projects">
+          <div class="card__image-container">
+            <img src="./docs/assets/images/basicPWgenerator.png" alt="password generate" class="card__image" />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#Javascript</span>
+              <span class="project__tag">#Responsive</span>
+            </div>
+            <h2 class="card__title">Password generate</h2>
+            <p class="card__text">
+              Este generador de contraseñas aleatorias, a diferencia del anterior, combina letras, números y símbolos
+              sin tener la posibilidad de seleccionar como opción, mayusculas, minúsculas, números o símbolos.
+            </p>
+            <p class="card__text">
+              La interfaz de usuario es intuitiva, lo que te permite personalizar la longitud de la contraseña deseada.
+            </p>
+            <div class="buttons">
+              <a href="https://gerimosca.github.io/pwGenerator/" target="_blank" class="button button--primary">Demo</a>
+              <a href="https://github.com/gerimosca/pwGenerator" target="_blank" class="button button--ghost">Código</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--projects">
+          <div class="card__image-container">
+            <img src="./docs/assets/images/carrito.png" alt="carrito compra" class="card__image" />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#Javascript</span>
+              <span class="project__tag">#Responsive</span>
+            </div>
+            <h2 class="card__title">Carrito de compra Grill & GO</h2>
+            <p class="card__text">
+              Este sitio web, es una continuación al proyecto "Grill & Go", donde he programado un carrito de compras
+              totalmente funcional. Permite a los usuarios agregar productos a su carrito, ver una lista detallada de
+              sus selecciones y ajustar las cantidades según sea necesario.
+            </p>
+            <p class="card__text">
+              El programa también calcula automáticamente el total del pedido y proporciona una experiencia de usuario
+              intuitiva para facilitar el proceso de compra. Este proyecto me permitió aplicar mis conocimientos de
+              JavaScript para crear una experiencia de compra en línea fluida y eficiente.
+            </p>
+            <div class="buttons">
+              <a href="https://gerimosca.github.io/grillAndGoJS/" target="_blank" class="button button--primary"
+                >Demo</a
+              >
+              <a href="https://github.com/gerimosca/grillAndGoJS" target="_blank" class="button button--ghost"
+                >Código</a
+              >
+            </div>
+          </div>
+        </article>
+        <article class="card card--projects">
+          <div class="card__image-container">
+            <img src="./docs/assets/images/basicPWgenerator.png" alt="proyecto 5" class="card__image" />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#Javascript</span>
+              <span class="project__tag">#Responsive</span>
+            </div>
+            <h2 class="card__title">PROYECTO 5</h2>
+            <p class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi odit cumque non sequi blanditiis explicabo
+              voluptas, dolor corrupti sapiente molestias dolorum alias molestiae, maiores possimus modi, eveniet
+              pariatur dolore cupiditate.
+            </p>
+            <p class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi odit cumque non sequi blanditiis explicabo
+              voluptas, dolor corrupti sapiente molestias dolorum alias molestiae, maiores possimus modi, eveniet
+              pariatur dolore cupiditate.
+            </p>
+            <div class="buttons">
+              <a href="https://gerimosca.github.io/pwGenerator/" target="_blank" class="button button--primary">Demo</a>
+              <a href="https://github.com/gerimosca/pwGenerator" target="_blank" class="button button--ghost">Código</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--projects">
+          <div class="card__image-container">
+            <img src="./docs/assets/images/basicPWgenerator.png" alt="proyecto 6" class="card__image" />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#Javascript</span>
+              <span class="project__tag">#Responsive</span>
+            </div>
+            <h2 class="card__title">PROYECTO 6</h2>
+            <p class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi odit cumque non sequi blanditiis explicabo
+              voluptas, dolor corrupti sapiente molestias dolorum alias molestiae, maiores possimus modi, eveniet
+              pariatur dolore cupiditate.
+            </p>
+            <p class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi odit cumque non sequi blanditiis explicabo
+              voluptas, dolor corrupti sapiente molestias dolorum alias molestiae, maiores possimus modi, eveniet
+              pariatur dolore cupiditate.
+            </p>
+            <div class="buttons">
+              <a href="https://gerimosca.github.io/pwGenerator/" target="_blank" class="button button--primary">Demo</a>
+              <a href="https://github.com/gerimosca/pwGenerator" target="_blank" class="button button--ghost">Código</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--projects">
+          <div class="card__image-container">
+            <img src="./docs/assets/images/basicPWgenerator.png" alt="proyecto 7" class="card__image" />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#Javascript</span>
+              <span class="project__tag">#Responsive</span>
+            </div>
+            <h2 class="card__title">PROYECTO 7</h2>
+            <p class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi odit cumque non sequi blanditiis explicabo
+              voluptas, dolor corrupti sapiente molestias dolorum alias molestiae, maiores possimus modi, eveniet
+              pariatur dolore cupiditate.
+            </p>
+            <p class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi odit cumque non sequi blanditiis explicabo
+              voluptas, dolor corrupti sapiente molestias dolorum alias molestiae, maiores possimus modi, eveniet
+              pariatur dolore cupiditate.
+            </p>
+            <div class="buttons">
+              <a href="https://gerimosca.github.io/pwGenerator/" target="_blank" class="button button--primary">Demo</a>
+              <a href="https://github.com/gerimosca/pwGenerator" target="_blank" class="button button--ghost">Código</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--projects">
+          <div class="card__image-container">
+            <img src="./docs/assets/images/basicPWgenerator.png" alt="proyecto 8" class="card__image" />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#Javascript</span>
+              <span class="project__tag">#Responsive</span>
+            </div>
+            <h2 class="card__title">PROYECTO 8</h2>
+            <p class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi odit cumque non sequi blanditiis explicabo
+              voluptas, dolor corrupti sapiente molestias dolorum alias molestiae, maiores possimus modi, eveniet
+              pariatur dolore cupiditate.
+            </p>
+            <p class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi odit cumque non sequi blanditiis explicabo
+              voluptas, dolor corrupti sapiente molestias dolorum alias molestiae, maiores possimus modi, eveniet
+              pariatur dolore cupiditate.
+            </p>
+            <div class="buttons">
+              <a href="https://gerimosca.github.io/pwGenerator/" target="_blank" class="button button--primary">Demo</a>
+              <a href="https://github.com/gerimosca/pwGenerator" target="_blank" class="button button--ghost">Código</a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
