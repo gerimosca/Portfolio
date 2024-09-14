@@ -141,6 +141,7 @@ body.dark{
     min-width: 225px;
     border-radius: var(--border-radius);
     overflow: hidden;
+    margin-bottom: 80px;
 }
 
 .card__header{
@@ -304,6 +305,11 @@ body.dark{
     
 }
 
+.card__text{
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
 @media screen and (min-width: 760px) { 
 .project{
     margin-left: 2em;
@@ -350,7 +356,7 @@ body.dark{
 @media screen and (min-width: 760px) { 
     .buttons{
         position: absolute;
-        bottom: 0.5em;
+        bottom: 1em;
     }
 }
 
